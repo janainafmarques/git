@@ -9,9 +9,10 @@ display: inline;
 }
 
 .container {
-width: 1366px; 
-margin: 0 auto;
-}
+    display: flex;
+    justify-content: space-between; /* alinha os elementos com espaço igual entre eles */
+    align-items: center; /* alinha os elementos verticalmente */
+  }
 
 .articles {
     display: flex; 
@@ -38,6 +39,7 @@ header {
 	padding: 10px;
 }
 
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -60,16 +62,16 @@ main {
 
 section {
 	margin-bottom: 30px;
+	background-color: #e0d8d8
 }
 
 * h2 {
-	color: #333;
 	font-size: 24px;
 	margin-bottom: 10px;
 }
 
 article {
-	background-color: #eee;
+	
 	padding: 10px;
 	margin-bottom: 20px;
 	border-radius: 5px;
@@ -86,11 +88,50 @@ h3 {
 }
 
 img {
-    max-width: 80%;
-    height: auto;
+    max-width: 300px;
+    height: 200px;
   }
-  .botao {
+  .botao0 {
 	background-color: #4CAF50; /* Cor de fundo */
+	border: none; /* Sem borda */
+	color: white; /* Cor do texto */
+	padding: 15px 32px; /* Espaçamento interno */
+	text-align: center; /* Centraliza o texto */
+	text-decoration: none; /* Sem sublinhado */
+	display: inline-block; /* Exibe o botão como um bloco em linha */
+	font-size: 16px; /* Tamanho da fonte */
+	margin: 4px 2px; /* Espaçamento externo */
+	cursor: pointer; /* Cursor em forma de mão ao passar o mouse */
+  }
+
+  .botao1 {
+	background-color: #4417be; /* Cor de fundo */
+	border: none; /* Sem borda */
+	color: white; /* Cor do texto */
+	padding: 15px 32px; /* Espaçamento interno */
+	text-align: center; /* Centraliza o texto */
+	text-decoration: none; /* Sem sublinhado */
+	display: inline-block; /* Exibe o botão como um bloco em linha */
+	font-size: 16px; /* Tamanho da fonte */
+	margin: 4px 2px; /* Espaçamento externo */
+	cursor: pointer; /* Cursor em forma de mão ao passar o mouse */
+  }
+  
+  .botao2 {
+	background-color: #be3188; /* Cor de fundo */
+	border: none; /* Sem borda */
+	color: white; /* Cor do texto */
+	padding: 15px 32px; /* Espaçamento interno */
+	text-align: center; /* Centraliza o texto */
+	text-decoration: none; /* Sem sublinhado */
+	display: inline-block; /* Exibe o botão como um bloco em linha */
+	font-size: 16px; /* Tamanho da fonte */
+	margin: 4px 2px; /* Espaçamento externo */
+	cursor: pointer; /* Cursor em forma de mão ao passar o mouse */
+  }
+  
+  .botao3 {
+	background-color: #a38914; /* Cor de fundo */
 	border: none; /* Sem borda */
 	color: white; /* Cor do texto */
 	padding: 15px 32px; /* Espaçamento interno */
